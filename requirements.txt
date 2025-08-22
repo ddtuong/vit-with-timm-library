@@ -1,0 +1,2 @@
+pip install torchvision==0.21.0+cu124 --extra-index-url https://download.pytorch.org/whl/cu124
+pip install timm==1.0.17
