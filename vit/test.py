@@ -4,6 +4,9 @@ from vit import *
 from engine import *
 
 def main():
+    #seed_everything
+    seed_everything(43)
+    
     # load dataset
     test_df = data_preprocessing(TEST_PATH)
     test_dataset = PneumoniaDataset(test_df, transforms_val)

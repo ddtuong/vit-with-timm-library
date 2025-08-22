@@ -3,6 +3,9 @@ from vit import *
 from engine import *
 
 def main():
+    #seed_everything
+    seed_everything(43)
+    
     # load dataset
     train_df = data_preprocessing(TRAIN_PATH)
     valid_df = data_preprocessing(VALID_PATH)
